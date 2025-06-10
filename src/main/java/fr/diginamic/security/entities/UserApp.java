@@ -17,16 +17,7 @@ public class UserApp {
     private  String email;
     private String password;
 
-    public UserApp() {
-    }
-
     public UserApp(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
-
-    public UserApp(Integer id, String email, String password) {
-        this.id = id;
         this.email = email;
         this.password = password;
     }
